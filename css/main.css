@@ -94,6 +94,12 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+
     h2 {
         font-family: 'Oswald', sans-serif;
         color: #000;
@@ -141,10 +147,12 @@ textarea {
         max-width: 100%;
     }
 
+
+   
     #logoSquare {
         background-color: #0C517F;
     }
-    
+    /*LOGO ICON STYLE*/
     #bowenLogo{
         position: absolute;
         margin: auto;
@@ -152,8 +160,8 @@ textarea {
         max-width: 300px;
         top:30%;
         left: 20%;
-        bottom: 30%;
         right: 20%;
+        margin-top: -60px;
     }
    
    

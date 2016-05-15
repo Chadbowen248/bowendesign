@@ -167,6 +167,20 @@ textarea {
     #contactSquare {
         background-color: #33617F;
     }
+
+    #socialIcons {
+        height: 200px;
+        width: 100%;
+        position: absolute;
+        top: 40%;
+        left: 0%;
+        text-align: center;    
+    }
+
+    #socialIcons i {
+        margin: 15px;
+        color: white;
+    }
     
     #aboutSquare {
         background-color: #19A2FF;

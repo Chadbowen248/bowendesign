@@ -107,10 +107,6 @@ textarea {
         letter-spacing: 1px;
     }
 
-
-    p {
-        font-family: 'Oswald', sans-serif; 
-    }
    /* ==========================================================================
    ***************************COLORS**********************************
     #0C517F DarkBlue
@@ -249,27 +245,22 @@ textarea {
     }
 
     .sectionCopy p {
-        font-family: 'Open Sans', sans-serif;
-        /*font-family: 'Slabo 27px', serif;*/    
+        font-family: 'Open Sans', sans-serif;   
         font-size: 1.4em;
         font-weight: 400;
         margin-top: 40px;
         margin-left: 40px;
         margin-bottom: 40px;
-        text-align: left;
+        text-align: justify;
         line-height: 1.5;
         padding-right: 50px;
         color: #fff;
+
     }
 
    /* ==========================================================================
    ****************************ABOUT US************************************
    ========================================================================== */
-    #aboutRow {
-        background-color: #19A2FF;
-    }
-
-
     .aboutUs img{
         width: 90%;
         margin-top: 40px;
@@ -279,8 +270,62 @@ textarea {
 
     .aboutUsRow{
         width: 100%;
-        background-color: gray;
+        background-color: #19A2FF;
+        margin: 0;
     }
+
+
+
+
+
+
+   /* ==========================================================================
+   ****************************PROJECTS************************************
+   ========================================================================== */
+        #projectsIcon {
+            width: 100%;
+            height: 200px;
+            position: absolute;
+            left:0;
+            top:35%;
+        }
+
+        #projectsIcon img {
+            width: 30%;
+            margin-right: 35%;
+            margin-left: 35%;
+        }
+
+
+
+
+
+   /* ==========================================================================
+   ***************************WHAT WE CAN DO FOR YOU***************************
+   ========================================================================== */
+    #whatwe {
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        left: 0;
+        top: 35%;
+    }
+
+    #whatwe img {
+        width: 30%;
+        margin-right: 35%;
+        margin-left: 35%;
+    }
+
+
+
+
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
@@ -362,10 +407,7 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 768px) {
-    /* TABLET */
-  
-}
+
 
 
 
@@ -374,6 +416,41 @@ textarea {
     .blank {
         display: none;
     }
+
+       #whatwe {
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        left: 0;
+        top: 30%;
+    }
+
+    #whatwe img {
+        width: 30%;
+        margin-right: 35%;
+        margin-left: 35%;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* PHONE */
+       #whatwe {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 30%;
+    }
+
+    #whatwe img {
+        width: 40%;
+        margin-right: 30%;
+        margin-left: 30%;
+    }
+
+
+  
 }
 
 @media only screen and (min-width: 1200px) {

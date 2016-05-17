@@ -318,10 +318,32 @@ textarea {
     }
 
 
+    .whatcan {
+        background-color: gray;
+    }
 
+    .whatcan p {
+        margin-bottom: 0;
+    }
 
+    .checkContainer {
+        display: block;
+        width: 100%;
+        margin: auto;
+        padding: 15px;
+    }
 
+    .checkmarks h2 {
+        display: inline;
+    }
 
+    .checkmarks i {
+        display: inline-block;
+        margin-top: 20px;
+        font-size: 2.5em;
+        margin-right: 10px;
+    }
+    
 
 
 
@@ -422,13 +444,13 @@ textarea {
         height: 200px;
         position: absolute;
         left: 0;
-        top: 30%;
+        top: 25%;
     }
 
     #whatwe img {
-        width: 30%;
-        margin-right: 35%;
-        margin-left: 35%;
+        width: 20%;
+        margin-right: 37.25%;
+        margin-left: 37.25%;
     }
 
 }
@@ -436,17 +458,46 @@ textarea {
 
 @media only screen and (max-width: 768px) {
     /* PHONE */
-       #whatwe {
+
+    #projectsIcon {
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        left:0;
+        top:35%;
+    }
+
+    #projectsIcon img {
+        width: 20%;
+        margin-right: 40%;
+        margin-left: 40%;
+    }
+
+    #whatwe {
         width: 100%;
         position: absolute;
         left: 0;
-        top: 30%;
+        top: 35%;
     }
 
     #whatwe img {
+        width: 20%;
+        margin-right: 40%;
+        margin-left: 40%;
+    }
+
+
+
+    .squares {
+        height: 250px;
+    }
+
+    #logoSquare {
+        background-color: #000;
+    }
+
+    #bowenLogo {
         width: 40%;
-        margin-right: 30%;
-        margin-left: 30%;
     }
 
 

@@ -249,9 +249,9 @@ textarea {
     }
 
     .sectionCopy p {
-        font-family: 'Oswald', sans-serif;
-        color: white; 
-        font-size: 1.7em;
+        font-family: 'Open Sans', sans-serif;
+        /*font-family: 'Slabo 27px', serif;*/    
+        font-size: 1.4em;
         font-weight: 400;
         margin-top: 40px;
         margin-left: 40px;
@@ -259,6 +259,7 @@ textarea {
         text-align: left;
         line-height: 1.5;
         padding-right: 50px;
+        color: #fff;
     }
 
    /* ==========================================================================
@@ -274,6 +275,11 @@ textarea {
         margin-top: 40px;
         border-radius: 10px;
         margin-left: 40px;
+    }
+
+    .aboutUsRow{
+        width: 100%;
+        background-color: gray;
     }
 
 /* ==========================================================================

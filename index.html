@@ -14,9 +14,10 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Slabo+27px|Abel|Rochester' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,600,500' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Rationale' rel='stylesheet' type='text/css'> 
+    <link href='https://fonts.googleapis.com/css?family=Rationale' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
@@ -28,21 +29,27 @@
     <!-- Add your site or application content here -->
 
     <div class="row squareGrid">
-        <div id="logoSquare" class="col-md-4  col-sm-6 col-xs-12 squares"><a href="index.html"><img class="squaresImg" src="img/blank.png" alt=""><img id="bowenLogo" src="img/bowenDesignLogo.png" alt=""></a></div>
+        <div id="logoSquare" class="col-md-4  col-sm-6 col-xs-12 squares">
+            <a href="index.html"><img class="squaresImg" src="img/blank.png" alt=""><img id="bowenLogo" src="img/bowenDesignLogo.png" alt=""></a>
+        </div>
         <div id="topMiddle" class="col-md-4  col-sm-6 col-xs-12 squares blank"><img class="squaresImg" src="img/blank.png" alt=""></div>
         <div id="contactSquare" class="col-md-4 col-sm-6 col-xs-12 squares"><a href="index.html"><h2 class="squareTitles">SAY HELLO !</h2><img class="squaresImg" src="img/blank.png" alt=""></a>
             <div id="socialIcons">
-                <i class="fa fa-twitter fa-4x"></i>
+                <a href="https://twitter.com/DesignBowen"><i class="fa fa-twitter fa-4x"></i></a>
                 <i class="fa fa-facebook-official fa-4x"></i>
                 <i class="fa fa-envelope fa-4x"></i>
             </div>
         </div>
     </div>
     <div class="row squareGrid">
-        <div id="aboutSquare" class="col-md-4 col-sm-6 col-xs-12 squares"><a href="index.html"><h2 class="squareTitles">ABOUT US</h2><img class="squaresImg" src="img/blank.png" alt=""><img id="aboutUs" src="img/aboutUs.png" alt=""></a></div>
-        <div id="workSquare" class="col-md-4 col-sm-6 col-xs-12 squares"><a href="index.html">
-            <h2 class="squareTitles">PROJECTS</h2>
-            <img class="squaresImg" src="img/blank.png" alt=""></a>
+        <a href="#about">
+            <div id="aboutSquare" class="col-md-4 col-sm-6 col-xs-12 squares">
+                <h2 class="squareTitles hover">ABOUT US</h2><img class="squaresImg" src="img/blank.png" alt=""><img id="aboutUs" src="img/aboutUs.png" alt=""></a>
+        </div>
+        <div id="workSquare" class="col-md-4 col-sm-6 col-xs-12 squares">
+            <a href="#projects">
+                <h2 class="squareTitles">PROJECTS</h2>
+                <img class="squaresImg" src="img/blank.png" alt=""></a>
             <div id="projectsIcon">
                 <img src="img/projects.png" alt="">
             </div>
@@ -51,9 +58,9 @@
         <div id="middleRight" class="col-md-4 col-sm-6 col-xs-12 squares blank"><img class="squaresImg" src="img/blank.png" alt=""></div>
     </div>
     <div class="row squareGrid bottomRow">
-        <div id="bottomLeft"class="col-md-4 col-sm-6 col-xs-12 squares blank"><img class="squaresImg" src="img/blank.png" alt=""></div>
-        <div id="bottomMiddle"class="col-md-4 col-sm-6 col-xs-12 squares blank"><img class="squaresImg" src="img/blank.png" alt=""></div>
-        <div id="socialSquare" class="col-md-4 col-sm-12 col-xs-12 squares"><a href="index.html"><h2 class="squareTitles">WHAT WE CAN DO FOR YOU</h2>
+        <div id="bottomLeft" class="col-md-4 col-sm-6 col-xs-12 squares blank"><img class="squaresImg" src="img/blank.png" alt=""></div>
+        <div id="bottomMiddle" class="col-md-4 col-sm-6 col-xs-12 squares blank"><img class="squaresImg" src="img/blank.png" alt=""></div>
+        <div id="socialSquare" class="col-md-4 col-sm-12 col-xs-12 squares"><a href="#what"><h2 class="squareTitles">WHAT WE CAN DO FOR YOU</h2>
             <img class="squaresImg" src="img/blank.png" alt=""></a>
             <div id="whatwe">
                 <img src="img/puzzle.png" alt="">
@@ -62,61 +69,130 @@
     </div>
 
     <section>
-        <div class="row aboutUsRow">
-            <div class="sectionTitleContainer"><h2 class="sectionCopyTitle">About Us</h2></div>
+        <div class="row aboutUsRow" id="about">
+            <div class="sectionTitleContainer">
+                <h2 class="sectionCopyTitle">About Us</h2></div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 aboutUs">
                 <img src="img/aboutUs-image-optimized.jpg" />
-            </div><!-- /.col-md-6 col-sm-12 col-xs-12 -->
+            </div>
+            <!-- /.col-md-6 col-sm-12 col-xs-12 -->
             <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12 sectionCopy">
-                    <p>We love what we do. We are Chad and Meghana Bowen. A husband and wife team and self taught web developers. We both come from design backgrounds, which gave us an edge in the world of technology. Even before we got into development, we were intrigued by the inner workings of the web. All this time spent online, got us curious enough to take a good look. That’s all it took. A few small projects and websites later, we were hooked. </p><p>
-                    Meghana, is cautious and organized, while Chad is more laid-back and kind of obsessive about getting things exactly right. We balance each other out pretty well, and ultimately end up with great work. Our goal is to make functional, fast and beautiful websites and applications. Life has been amazing so far and we can’t wait to see what’s next. </p>
-            </div><!-- /.col-md-6 col-sm-12 col-xs-12 -->  
+                <p class="copy">We love what we do. We are Chad and Meghana Bowen. A husband and wife team and self taught web developers. We both come from design backgrounds, which gave us an edge in the world of technology. Even before we got into development, we
+                    were intrigued by the inner workings of the web. All this time spent online, got us curious enough to take a good look. That’s all it took. A few small projects and websites later, we were hooked. </p>
+                <p class="copy">
+                    Meghana, is cautious and organized, while Chad is more laid-back and kind of obsessive about getting things exactly right. We balance each other out pretty well, and ultimately end up with great work. Our goal is to make functional, fast and beautiful
+                    websites and applications. Life has been amazing so far and we can’t wait to see what’s next. </p>
+            </div>
+            <!-- /.col-md-6 col-sm-12 col-xs-12 -->
             <div class="col-lg-offset-2"></div>
-        </div><!-- /.row -->
-        <div class="row whatcan">
-            <div class="sectionTitleContainer"><h2 class="sectionCopyTitle">What we can do for you.</h2></div>
-            <div class="col-md-12 sectionCopy">
-                <p>We’ll build you a beautiful and functional website that changes and adapts depending on the screen it’s on. Users today are on the move more than ever and our goal is to make your content easily available to them at all times. No more pinching and zooming to see your content. We’ll design mobile-first and then move on to the bigger screens, which ensures that the most important details come across at once.</p>
-                <div class="row checkmarks">
-                    <div class="col-md-6 col-sm-6">
-                        <div class="checkContainer">
-                            <i class="fa fa-check-circle-o"></i><h2>Mobile First Design</h2></div>
-                        <div class="checkContainer">
-                            <i class="fa fa-check-circle-o"></i><h2>Fast and Responsive</h2></div>
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                        <div class="checkContainer"><i class="fa fa-check-circle-o"></i><h2>Stand out on Google</h2></div>
-                        <div class="checkContainer"><i class="fa fa-check-circle-o"></i><h2>Custom Wordpress blog</h2></div>
+        </div>
+    </section>
+    <!-- /.row -->
+    <section>
 
+
+        <div class="row whatcan" id="what">
+            <div class="sectionTitleContainer">
+                <h2 class="sectionCopyTitle">What we can do for you.</h2></div>
+            <div class="col-md-6 col-sm-6 sectionCopy">
+                <p class="copy">We’ll build you a beautiful and functional website that changes and adapts depending on the screen it’s on. Users today are on the move more than ever and our goal is to make your content easily available to them at all times. No more
+                    pinching and zooming to see your content. We’ll design mobile-first and then move on to the bigger screens, which ensures that the most important details come across at once.</p>
+            </div>
+            <div class="col-md-6 col-sm-6 checkmarks">
+                <div class="listContainer">
+                    <div class="checkContainer">
+                        <i class="fa fa-check-circle-o"></i>
+                        <h3>Mobile First Design</h3>
+                    </div>
+                    <div class="checkContainer">
+                        <i class="fa fa-check-circle-o"></i>
+                        <h3>Fast and Responsive</h3>
+                    </div>
+                    <div class="checkContainer"><i class="fa fa-check-circle-o">
+                        </i>
+                        <h3>Stand out on Google</h3>
+                    </div>
+                    <div class="checkContainer">
+                        <i class="fa fa-check-circle-o"></i>
+                        <h3>Custom Wordpress blog</h3>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
+
+    <div class="row projects" id="projects">
+        <div class="sectionTitleContainer">
+            <h2 class="sectionCopyTitle">Projects</h2>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 frame">
+          <div class="thumbnail">
+                <div class="caption">
+                    <h3>HTML<br>CSS<br>Javascript<br>jQuery</h3>
+                </div>
+                <img src="img/stonz.jpg" alt="...">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 frame">
+          <div class="thumbnail">
+                <div class="caption">
+                    <h3>HTML<br>CSS<br>Javascript<br>JSON<br>API</h3>
+                </div>
+                <img src="img/posteromatic.jpg" alt="...">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 frame">
+          <div class="thumbnail">
+                <div class="caption">
+                    <h3>HTML<br>CSS<br>Javascript</h3>
+                </div>
+                <img src="img/colorgame.jpg" alt="...">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 frame">
+          <div class="thumbnail">
+                <div class="caption">
+                    <h3>HTML<br>CSS<br>Javascript</h3>
+                </div>
+                <img src="img/todo.jpg" alt="...">
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="row githubRow">
+        <div class="sectionTitleContainer">
+            <h2 class="sectionCopyTitle">check us out on github and codepen</h2></div>
+        <div class="col-md-12 col-sm-12 iconCol">
+            <div class="projectIconsContainer">
+                <a href="https://github.com/Chadbowen248"><i class="fa fa-github fa-3x projectIcons"></i></a>
+                <a href="http://codepen.io/meghanabowen/"><i class="fa fa-codepen fa-3x projectIcons"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="sectionTitleContainer">
+            <h2 class="sectionCopyTitle">Contact Us</h2>
+        </div>
+
+    </div>
+
+    </section>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script>
-    window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
-    </script>
-    <script src="js/plugins.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/foundation.min.js"></script>
     <script src="js/main.js"></script>
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-    (function(b, o, i, l, e, r) {
-        b.GoogleAnalyticsObject = l;
-        b[l] || (b[l] =
-            function() {
-                (b[l].q = b[l].q || []).push(arguments)
-            });
-        b[l].l = +new Date;
-        e = o.createElement(i);
-        r = o.getElementsByTagName(i)[0];
-        e.src = 'https://www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e, r)
-    }(window, document, 'script', 'ga'));
-    ga('create', 'UA-XXXXX-X', 'auto');
-    ga('send', 'pageview');
-    </script>
 </body>
 
 </html>

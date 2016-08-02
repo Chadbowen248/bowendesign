@@ -1,0 +1,152 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+header h1{
+  font-family: 'Lobster',cursive;
+  text-transform: none;
+  font-size: 80px;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+input {
+  color: #000;
+  border-radius: 3px;
+}
+
+
+.holder {
+  max-width: 100%;
+}
+
+#poster {
+  width: 50%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  margin-top: 35px;
+  border-radius: 15px;
+}
+
+#btnSection a {
+  text-decoration: none;
+}
+
+
+/*set color to transparent and and shadow to text*/
+/*to take away blinking cursor*/
+#term {
+  background-color:  #CC513E;
+  border: none;
+  width: 80%;
+  color: black;
+  /*text-shadow: 0 0 0 black;*/
+  font-family: 'Oswald', sans-serif;
+  font-size: 6.25em;
+  text-transform: uppercase;
+  text-align: center;
+  outline: none;
+}
+
+#term:focus {
+  outline: none;
+}
+
+.loading {
+  color: #CC513E;
+  font-family: 'Oswald', sans-serif;
+}
+
+#similar a {
+  color: #FFD700;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-decoration: none;
+}
+#similar h3 {
+  font-family: 'Oswald', sans-serif;
+  color: #FFD700;
+}
+#fetch {
+  background-color: #CC513E;
+}
+
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;
+}
+
+:-ms-input-placeholder {
+   color: black;
+}
+
+
+#plot {
+  width: 60%;
+  margin: 0 auto;
+  color: #CC513E;
+  font-family: 'Oswald', sans-serif;
+}
+
+#plot h2 {
+  color: #CC513E;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+#year {
+  font-family: 'Oswald', sans-serif;
+  color: #FFD700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+#term {
+  font-size: 50px;
+}
+
+}
